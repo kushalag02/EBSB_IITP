@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@800&family=Poppins&family=Roboto&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open Sans");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    transition: 0.5s;
+}
+
+.nav-link {
+    transition: 0.5s;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #ffffff;
+}
+
+#navbar .iitplogo {
+    margin-right: 29px;
+}
+
+#navbar .iitplogo a img {
+    width: 50px;
+}
+
+#navbar .header span {
+    font-family: "Avenir-Demi";
+    display: inline-block;
+    width: auto;
+    height: auto;
+    color: #f5f4f0;
+    line-height: 25px;
+    /* padding-right: 60px; */
+}
+
+.nav-item-active {
+    transition: 0.5s;
+}
+
+#navbar .header .heading_english {
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+
+#navbar .header .heading_hindi {
+    color: rgb(158, 234, 255);
+    font-size: 18px;
+}
+
+#navbar .header-container {
+    display: flex;
+    width: 40%;
+}
+
+#navbar .header-container .iitplogo {
+    width: 20%;
+    margin: 10px 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar .iitplogo img {
+    width: 100px;
+}
+
+.list-container .nav-list li a {
+    display: block;
+    color: #f5f4f0;
+    padding: 1px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.list-container .nav-list li a:hover {
+    color: #f5f4f0;
+}
