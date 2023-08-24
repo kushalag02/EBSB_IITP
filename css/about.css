@@ -86,3 +86,121 @@ nav {
 .list-container .nav-list li a:hover {
     color: #f5f4f0;
 }
+
+/* Body Starts */
+
+
+
+/* Mob view */
+
+@media only screen and (min-width: 901px) {
+    .navbar-collapse {
+        justify-content: flex-end !important;
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #navbar {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .para-container {
+        width: 100% !important;
+        padding-left: 0px !important;
+    }
+
+    #navbar ul li a {
+        font-size: 0.7rem;
+        padding: 0px 7Opx;
+        padding-bottom: 8px;
+    }
+
+    .header-container {
+        display: flex;
+        height: 70%;
+    }
+
+    #navbar .header-container .iitplogo {
+        width: 40%;
+        margin: 30px 20px;
+        text-align: left;
+        justify-content: left;
+    }
+
+    #navbar .header-container .iitplogo img {
+        width: 60%;
+        padding-right: 10px;
+
+    }
+
+    .header-container .header {
+        display: flex;
+    }
+
+    .header-container .header .heading_english {
+        font-size: 1rem;
+        padding-bottom: 3px;
+    }
+
+    .header-container .header .heading_hindi {
+        font-size: 0.9rem;
+    }
+
+
+    .list-container {
+        height: 30%;
+    }
+
+    .list-container .nav-list {
+        justify-content: left;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #navbar {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #navbar ul li a {
+        font-size: 0.7rem;
+        padding: 0px 7Opx;
+        padding-bottom: 8px;
+    }
+
+    .header-container {
+        display: flex;
+    }
+
+    #navbar .header-container .iitplogo {
+        width: 40%;
+        margin: 0px 0px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #navbar .header {
+        text-align: left;
+    }
+
+    #navbar .header .heading_english {
+        font-size: 1.3rem;
+    }
+
+    #navbar .header-container .iitplogo img {
+        width: 60%;
+        padding-right: 0px;
+    }
+
+    .header {
+        width: 60%;
+        text-align: center;
+        /* margin: 10px 0px; */
+    }
+
+    .list-container .nav-list {
+        justify-content: left;
+    }
+}
