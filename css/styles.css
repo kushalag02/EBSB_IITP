@@ -102,7 +102,12 @@ nav {
     max-width: 1000px;
     margin: 0 auto;
 }
-
+.carousel-item img {
+    width: 100%;
+    max-height: 280px;
+    margin: auto;
+    
+  }
 .key-activities {
     text-align: center;
     margin-top: 25px;
@@ -112,6 +117,7 @@ nav {
 }
 
 .card-container {
+
     max-width: 1000px;
     margin: 25px 125px;
     /* Adjusted margin */
@@ -122,18 +128,22 @@ nav {
 
 .card {
     background-color: #f9f9f9;
+    height: 180px;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
     /* Spacing between cards */
-    text-align: right;
+    text-align: left;
+    background: linear-gradient(to right, #f5bbae, #fbfbfa, #b9f8be);
 }
 
 .card img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 10px;
+    max-height: 100%;
+    width: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
 
 }
 
