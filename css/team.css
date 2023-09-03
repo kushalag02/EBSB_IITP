@@ -439,3 +439,66 @@ nav {
         font-size: 1rem;
     }
 }
+
+
+
+
+
+.main{
+    margin-top: 10vh;
+    height: 65vh ;
+}
+
+.heading {
+    text-align: center;
+    margin: 20px;
+    font-family: "Avenir-Demi";
+    font-size: 40.45px;
+    font-weight: bold;
+
+    
+}
+.imageGrid{
+    display: flex;
+    gap : 20vw;
+    margin-top: 10vh;
+    margin-left: 15vw;
+    margin-right: 25vw;
+    height: 20vh;
+    width: 50vw;
+}
+
+.image{
+     width:25vw;
+     height: 40vh;
+     padding-left: 5vw;
+     padding-right: 5vw;
+     padding-top: 5vh;
+     
+     box-shadow: 0px 0px 39px 6px rgba(0,0,0,0.1);
+    }
+
+.image img{
+    height: 25vh;
+    width: 15vw;
+}
+.imghead{
+    text-align: center;
+    margin-top: 5vh;
+    font-family: "Avenir-Demi";
+    font-size: 25px;
+    width: 15vw;
+    font-weight: bold;
+    color: rgb(76, 73, 73);
+}
+.imgsubhead{
+    text-align: center;
+   height: 2.5vh;
+    font-family: "Avenir-Demi";
+    font-size: 15.45px;
+    width: 15vw;
+    font-weight: bold;
+    color: rgb(9, 9, 9);
+}
+
+
