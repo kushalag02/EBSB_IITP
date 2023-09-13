@@ -77,14 +77,29 @@ nav {
 .list-container .nav-list li a {
     display: block;
     color: #f5f4f0;
-    padding: 1px 20px;
+    padding: 12px 20px;
+    letter-spacing: 0.15em;
     font-weight: bold;
     text-decoration: none;
     cursor: pointer;
 }
 
-.list-container .nav-list li a:hover {
-    color: #f5f4f0;
+a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0px;
+    content: "";
+    display: block;
+    height: 1.5px;
+    left: 50%;
+    position: relative;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+a:hover:after {
+    width: 100%;
+    left: 0;
 }
 
 /* Home Page Starts */
@@ -102,12 +117,14 @@ nav {
     max-width: 1000px;
     margin: 0 auto;
 }
+
 .carousel-item img {
     width: 100%;
     max-height: 280px;
     margin: auto;
-    
-  }
+
+}
+
 .key-activities {
     text-align: center;
     margin-top: 25px;
